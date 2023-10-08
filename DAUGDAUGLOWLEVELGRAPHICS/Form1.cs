@@ -24,6 +24,15 @@ namespace DAUGDAUGLOWLEVELGRAPHICS
         private bool complete2 = false;
         private bool spacebarHeldDown = false;
         private bool isPressed = false;
+        Color[] customColors = new Color[]
+        {
+            Color.FromArgb(0x85, 0xD7, 0xD1), // #85D7D1
+            Color.FromArgb(0xA8, 0x85, 0xD7), // #a885d7
+            Color.FromArgb(0x85, 0xB4, 0xD7), // #85b4d7
+            Color.FromArgb(0x85, 0xD7, 0xA8),  // #85d7a8
+            Color.FromArgb(0xD7, 0xD1, 0x85)   // #d7d185 
+        };
+        private int currentColorIndex = 0;
 
         public Form1()
         {
@@ -52,9 +61,8 @@ namespace DAUGDAUGLOWLEVELGRAPHICS
         private void Form1_Paint(object sender, PaintEventArgs e)
         {
             Graphics g = e.Graphics;
-            Color customColor = Color.FromArgb(0x85, 0xD7, 0xD1);
             Pen pen = new Pen(Color.White, 3);
-            Brush brush = new SolidBrush(customColor);
+            Brush brush = new SolidBrush(customColors[currentColorIndex]);
 
             g.DrawLine(pen, 420, 70, lineX, lineY);
             g.DrawEllipse(pen, circleX, circleY, 70, 70);
@@ -140,6 +148,8 @@ namespace DAUGDAUGLOWLEVELGRAPHICS
 
                 if(complete && complete2)
                 {
+                    Brush brush = new SolidBrush(customColors[currentColorIndex]);
+                    currentColorIndex = (currentColorIndex + 1) % customColors.Length;
                     scorebox.Text = " Score: " + ++score;
                     isAnimating = false;
                     complete = false;

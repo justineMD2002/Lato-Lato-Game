@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icon_wobg.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -84,6 +87,7 @@
     <None Include="Resources\WANEELLA pixel art_ Photo %281%29.gif" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="icon_wobg.ico" />
     <Content Include="Resources\Alley by PnFBackgrounds on DeviantArt.jpg" />
     <Content Include="Resources\Autumn by Forheksed on DeviantArt.jpg" />
     <Content Include="Resources\City 2d Background.jpg" />
