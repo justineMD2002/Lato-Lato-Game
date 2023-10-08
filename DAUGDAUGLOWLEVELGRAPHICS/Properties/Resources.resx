@@ -118,28 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Autumn by Forheksed on DeviantArt" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Autumn by Forheksed on DeviantArt.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\fw.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Susan Yung Portfolio" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Susan Yung Portfolio.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="WANEELLA pixel art_ Photo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\WANEELLA pixel art_ Photo.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="City 2d Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\City 2d Background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Хижина лесоруба пиксель арт" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Хижина лесоруба пиксель арт.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Pixel cityscape, 8 bit pixel art game landscape" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Pixel cityscape, 8 bit pixel art game landscape.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="WANEELLA pixel art_ Photo (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\WANEELLA pixel art_ Photo (1).gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -43,7 +43,7 @@ namespace DAUGDAUGLOWLEVELGRAPHICS
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            DialogResult result = MessageBox.Show("Are you ready to play?", "Ready to Play", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            DialogResult result = MessageBox.Show("Are you ready to play? Press spacebar to play the game.", "Ready to Play", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
             if (result == DialogResult.Yes)
             {

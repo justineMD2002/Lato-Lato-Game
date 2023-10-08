@@ -63,79 +63,9 @@ namespace DAUGDAUGLOWLEVELGRAPHICS.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Autumn_by_Forheksed_on_DeviantArt {
+        internal static System.Drawing.Bitmap bg {
             get {
-                object obj = ResourceManager.GetObject("Autumn by Forheksed on DeviantArt", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap City_2d_Background {
-            get {
-                object obj = ResourceManager.GetObject("City 2d Background", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap fw {
-            get {
-                object obj = ResourceManager.GetObject("fw", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Pixel_cityscape__8_bit_pixel_art_game_landscape {
-            get {
-                object obj = ResourceManager.GetObject("Pixel cityscape, 8 bit pixel art game landscape", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Susan_Yung_Portfolio {
-            get {
-                object obj = ResourceManager.GetObject("Susan Yung Portfolio", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap WANEELLA_pixel_art__Photo {
-            get {
-                object obj = ResourceManager.GetObject("WANEELLA pixel art_ Photo", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap WANEELLA_pixel_art__Photo__1_ {
-            get {
-                object obj = ResourceManager.GetObject("WANEELLA pixel art_ Photo (1)", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Хижина_лесоруба_пиксель_арт {
-            get {
-                object obj = ResourceManager.GetObject("Хижина лесоруба пиксель арт", resourceCulture);
+                object obj = ResourceManager.GetObject("bg", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

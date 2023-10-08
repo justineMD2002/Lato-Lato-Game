@@ -68,7 +68,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::DAUGDAUGLOWLEVELGRAPHICS.Properties.Resources.WANEELLA_pixel_art__Photo__1_;
+            this.BackgroundImage = global::DAUGDAUGLOWLEVELGRAPHICS.Properties.Resources.bg;
             this.ClientSize = new System.Drawing.Size(830, 450);
             this.Controls.Add(this.scorebox);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
